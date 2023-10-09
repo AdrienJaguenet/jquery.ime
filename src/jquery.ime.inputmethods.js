@@ -440,6 +440,10 @@
 			name: 'Taqbaylit Alatin tilde',
 			source: 'rules/kab/kab-tilde.js'
 		},
+		'kai-tilde' : {
+			name: 'Karai-Karai input keyboard',
+			source: 'rules/kai/kai-tilde.js'
+		},
 		'kbp-tilde': {
 			name: 'Kabɩyɛ tilde',
 			source: 'rules/kbp/kbp-tilde.js'
@@ -1269,6 +1273,10 @@
 		kab: {
 			autonym: 'Taqbaylit / ⵜⴰⵇⴱⴰⵢⵍⵉⵜ',
 			inputmethods: [ 'kab-tilde', 'ber-tfng' ]
+		},
+		kai : {
+			autonym: 'Karai-Karai / كاراي-كاراي',
+			inputmethods: [ 'kai-tilde' ]
 		},
 		kbd: {
 			autonym: 'адыгэбзэ (къэбэрдеибзэ)',
